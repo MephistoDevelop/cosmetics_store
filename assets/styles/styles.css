@@ -244,14 +244,28 @@ div a:hover{
 .w-100{
   width: 100% !important;;
 }
+.w-25{
+  width: 25%;;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+}
 #product-header{
-  border-bottom: 1px solid #888888;
-  color:#888888;
+  border-bottom: 1px solid rgba(56,56,56,0.7);
+  color:rgba(56,56,56,1);
+
 }
 .icons-products{
-  margin:0 10px;
+  margin:0 5px;
   padding:5px;
 }
 #products-container{
   padding: 0 5%;
+  background-color: rgba(100,100,100,0.4);
+}
+.card{
+  border: 1px solid #888888;
+  margin:1%;
+  background-color: white;;
 }
