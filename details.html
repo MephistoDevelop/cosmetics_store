@@ -13,39 +13,19 @@
   <meta name="twitter:site" content="@MephistoDevelop" />
   <meta name="twitter:creator" content="@MephistoDevelop" />
   <link rel="stylesheet" href="./assets/styles/styles.css">
-  <script src="https://kit.fontawesome.com/d08a51000b.js" crossorigin="anonymous"></script>
   </link>
   <title>Moni Cosmetic Store</title>
 </head>
 <div id="navbar-container">
-  <div id="logo-container">Moni Cosmetics</div>
-  <div id="menu-container">
-    <a><i id="home-icon" class="fas fa-home icons"></i> Home</a>
-    <a><i class="far fa-list-alt icons"></i>Products</a>
-    <a><i class="fas fa-shopping-cart icons"></i> Shop Cart</a>
-    <input id="nav-button" type="button" value="See More">
-  </div>
-  <div id="user-container">
-    <i class="fas fa-envelope"></i>
-    <span id="username" class="icons">MephistoDevelop</span>
-    <img id="user-image" src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50" />
-  </div>
+  <div id="logo-container">Logo</div>
+  <div id="menu-container">Menu</div>
+  <div id="user-container">User</div>
 </div>
 
 <body>
   <div id="main-container">
     <div id="search-container">
-      <div id="search-header" class="header-container">MONI COSMETICS</div>
-      <div id="subtitle">The best of producs from beauty and nails, the best option to get beutifull</div>
-      <div id="search-form">
-        <select id="cbx-categories" type="select">
-          <option>Brusshes</option>
-          <option>Concealer</option>
-          <option>Shadows</option>
-          <option>Make up</option>
-        </select>
-        <input id="input-search" type="text" placeholder="Search Products">
-        <input id="btn-search" type="button" value="Search"></div>
+      <div class="header-container">Moni Cosmetics</div>
     </div>
     <div id="slideshow-container">
       <div class="slideshow-container">
@@ -84,14 +64,51 @@
     </div>
     <div id="colums-container">
 
-
-      <div class="d-flex w-100">
-        <section id="products-container" class="d-flex w-100">
-          <div id="product-header" class="d-flex w-100">
-            <i class="fas fa-paint-brush icons-products"></i>Concealers
-          </div>
-        </section>
+      <div id="filter-column">
+        <div class="filter-header">Categories</div>
+        <div class="checkboxcontainer">
+          <ul>
+            <li class="d-flex"><input type="checkbox">
+              <span>Shadows</span>
+            </li>
+            <li class="d-flex"><input type="checkbox">
+              <span>Concealer</span>
+            </li>
+            <li class="d-flex"><input type="checkbox">
+              <span>Lipsticks</span>
+            </li>
+          </ul>
+        </div>
+        <div class="filter-header">Categories</div>
+        <div class="checkboxcontainer">
+          <ul>
+            <li class="d-flex"><input type="checkbox">
+              <span>Shadows</span>
+            </li>
+            <li class="d-flex"><input type="checkbox">
+              <span>Concealer</span>
+            </li>
+            <li class="d-flex"><input type="checkbox">
+              <span>Lipsticks</span>
+            </li>
+          </ul>
+        </div>
+        <div class="filter-header">Categories</div>
+        <div class="checkboxcontainer">
+          <ul>
+            <li class="d-flex"><input type="checkbox">
+              <span>Shadows</span>
+            </li>
+            <li class="d-flex"><input type="checkbox">
+              <span>Concealer</span>
+            </li>
+            <li class="d-flex"><input type="checkbox">
+              <span>Lipsticks</span>
+            </li>
+          </ul>
+        </div>
       </div>
+      <div id="products-column">Rigth Colum</div>
     </div>
   </div>
 </body>
