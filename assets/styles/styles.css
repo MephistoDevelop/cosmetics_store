@@ -453,8 +453,7 @@ color:rgba(100,100,100,1);
   margin-left: 5%;
 }
 #hotest-header{
-width: 57%;
-width: 57%;
+width: 58%;
 text-align: left;
 color: #888888;
 font-weight: bold;
@@ -491,3 +490,45 @@ margin-top: 1%;
   background-color: rgba(211, 82, 102, 1);
 }
 /* ////////////////////////////////////////////////////77 */
+#logo-footer{
+  font-size: 26px;
+  color: #888888;
+  font-weight: bold;
+  text-align: center;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+#footer-container{
+  justify-content: center;
+  padding: 3% 0;
+  border-top: 1px solid #8888;
+  border-bottom: 1px solid #8888;
+}
+#copyrigth-container{
+  font-size: 14px;
+  color: #888888;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  margin:1% 0;
+}
+#footer-links-container ul{
+  list-style: none;
+  margin:0;
+  padding:0;
+  width:15%
+}
+ ul li a{
+justify-content: left;
+text-decoration: none;
+}
+#footer-links-header{
+  color: rgba(211, 82, 102, 1);
+  border-bottom: 2px solid rgba(211, 82, 102, 1);;
+  padding-bottom: 2%;
+  margin-bottom: 10%;
+  font-weight: bolder;
+}
