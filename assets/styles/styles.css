@@ -137,17 +137,20 @@ font-weight: bold;
 #colums-container{
   display: flex;
   justify-content: center;
+  background-color: rgba(100,100,100,0.1);
 }
 #filter-column{
   width: 15%;
-  background-color: yellow;
+border-right: 1px solid  rgba(100,100,100,0.2);
 }
 #products-column{
   width: 75%;
-  background-color: red;
+  border-top: 1px solid rgba(100,100,100,0.2);
+  border-right: 1px solid rgba(100,100,100,0.2)
 }
 .filter-header {
-  border-bottom: 1px solid #888888;
+  margin-top: 10%;
+  border-bottom: 1px solid rgba(100,100,100,0.3);
   padding: 2% 0%;
   margin: 0 22%;;
 }
@@ -280,6 +283,12 @@ div a:hover{
   width: 95%;
   height: auto;
   margin: 7px 7px;
+}
+.card:hover{
+  transform: scale(1.05);
+}
+.hover-hot:hover img{
+  transform: scale(1.05);
 }
 .header-card{
   color:#383838;
@@ -450,7 +459,7 @@ color:rgba(100,100,100,1);
 .description-top-container{
   display: flex;
   flex-direction: column;
-  width: 20%;
+  width: 80%;
   margin-left: 15px;
   min-width: 350px;
 }
@@ -539,4 +548,41 @@ text-decoration: none;
   padding-bottom: 2%;
   margin-bottom: 10%;
   font-weight: bolder;
+}
+.img-top-details{
+  width: 160px;
+  height: 160px;
+}
+.hover-hot-details{
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 10px;
+  border: 1px solid rgba(58,58,58,0.2);
+}
+.hover-hot-details:hover{
+  background-color: white;;
+}
+.top-button-container-details{
+  font-size: 18px;
+  max-height: 180px;
+  position: relative;
+  display: flex;
+  top: 8%;
+  left: 65%;
+  width: 75%;
+  max-width: 350px;
+}
+.top-button-container-details:hover button{
+  transform: scale(1.02);
+  border:1px  solid #383838;
+  opacity: 0.98;
+}
+
+.description-top-container-details{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 15px;
+  /* min-width: 350px; */
 }
