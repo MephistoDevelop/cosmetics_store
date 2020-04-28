@@ -432,7 +432,7 @@ color:rgba(100,100,100,1);
   height: 250px;
 }
 .top-header{
-  margin-bottom: 5%;
+  margin-bottom: 1%;
     font-size: 16px;
     text-align: left;
     font-size: 16px;
@@ -450,7 +450,9 @@ color:rgba(100,100,100,1);
 .description-top-container{
   display: flex;
   flex-direction: column;
-  margin-left: 5%;
+  width: 20%;
+  margin-left: 15px;
+  min-width: 350px;
 }
 #hotest-header{
 width: 58%;
@@ -463,13 +465,19 @@ margin-top: 1%;
 .top-button-container{
   font-size: 18px;
   max-height: 180px;
-  position: relative;
+  position: absolute;
   display: flex;
-  bottom: -55%;
+  top: 78%;
+width: 75%;;
+max-width: 350px;
+}
+.slides-cards{
+  max-width: 700px;
 }
 .hot-button-price{
   display: flex;
   height: 20%;
+  max-width: 92px !important;
   color: white;
   border: none;
   font-weight: bolder;
