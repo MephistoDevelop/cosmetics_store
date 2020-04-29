@@ -1,8 +1,8 @@
 body{
-  font-family: Gothan Bold;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin:0;
   padding:0;
-
+  font-weight: bold;
 }
 #navbar-container{
   background-color: #383838;
@@ -175,7 +175,7 @@ border-right: 1px solid  rgba(100,100,100,0.2);
 div a{
 color:#888888  !important;
   width: 5%;
-  min-width: 95px;
+  min-width: 105px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -254,6 +254,9 @@ div a:hover{
 .w-100{
   width: 100% !important;;
 }
+.w-75{
+  width: 75% !important;;
+}
 .w-25{
   width: 25%;;
 }
@@ -278,14 +281,16 @@ div a:hover{
   border: 1px solid rgba(136, 136, 136, 0.17);
   margin:1%;
   background-color: white;;
+  width: 50% !important;;
 }
 .img-card{
   width: 95%;
-  height: auto;
+  height: 100%;
   margin: 7px 7px;
+  max-height: 242px;
 }
 .card:hover{
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 .hover-hot:hover img{
   transform: scale(1.05);
@@ -297,16 +302,17 @@ div a:hover{
 }
 .description-card{
 width: 100%;
-color:rgba(100,100,100,1);
+color:rgba(100,100,100,0.7);
 }
 .price-card{
   color:rgba(211, 82, 102, 1);
   font-weight: bolder;
   padding-top:5%;
+  width: 100%;;
 }
 .price{
   margin-top: 5%;
-  margin-left: 70%;
+  margin-left: 65%;
   font-size: 20px;
 }
 .plus-card{
@@ -319,6 +325,7 @@ color:rgba(100,100,100,1);
 
 .card-section{
   margin: 5%;
+  min-height: 120px;
 }
 .header-icon{
   width: 20px;
@@ -461,7 +468,7 @@ color:rgba(100,100,100,1);
   flex-direction: column;
   width: 80%;
   margin-left: 15px;
-  min-width: 350px;
+  /* min-width: 350px; */
 }
 #hotest-header{
 width: 58%;
@@ -476,7 +483,7 @@ margin-top: 1%;
   max-height: 180px;
   position: absolute;
   display: flex;
-  top: 78%;
+  top: 79%;
 width: 75%;;
 max-width: 350px;
 }
@@ -585,4 +592,49 @@ text-decoration: none;
   width: 80%;
   margin-left: 15px;
   /* min-width: 350px; */
+}
+@media  (max-width:700px){
+
+#cards-container{
+  flex-direction: column;;
+}
+#logo-footer{
+  width: 50%;;
+  font-size: 22px;
+}
+#footer-links-container{
+width: 30%;
+}
+#logo-container{
+  font-size: 16px;
+}
+div a{
+  font-size:12px;
+  min-width: 79px;
+}
+#username{
+  font-size: 10px;
+}
+#cbx-categories{
+  width: auto;;
+}
+#btn-search{
+  width:25%
+}
+.slider{
+  width: 95%;
+}
+.top-description{
+  width: 79%;
+}
+.img-top{
+  width:200px;
+  height: 200px;;
+}
+.slider-nums{
+  padding: 2px 6px;
+}
+#hotest-header{
+  width: 100%;
+}
 }
