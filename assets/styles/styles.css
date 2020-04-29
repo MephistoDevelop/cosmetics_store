@@ -462,7 +462,13 @@ color:rgba(100,100,100,0.7);
     font-size: 16px;
     color: #888888;
     font-weight: bold;
-
+}
+.top-description-details{
+  font-size: 12px;
+  text-align: left;
+  font-size: 16px;
+  color: #888888;
+  font-weight: bold;
 }
 .description-top-container{
   display: flex;
@@ -576,10 +582,9 @@ text-decoration: none;
   max-height: 180px;
   position: relative;
   display: flex;
-  top: 8%;
-  left: 65%;
   width: 75%;
   max-width: 350px;
+  margin-top: 7%;
 }
 .top-button-container-details:hover button{
   transform: scale(1.02);
@@ -602,8 +607,25 @@ text-decoration: none;
 #hamburguer{
   display: none;
 }
+@media(max-width:940px){
+  #filter-column{
+    display: none;
+  }
+  .top-description-details{
+  width: 100%;;
+  max-height: 85px;
+  font-size: 14px;
+  }
+  .top-button-container-details{
+    margin-top: 8%;
+    top:0;
+  }
+  }
 @media  (max-width:768px){
-
+  .top-description-details{
+font-size: 12px;;
+width: 100%;;
+  }
 #cards-container{
   flex-direction: column;;
 }
@@ -615,8 +637,8 @@ text-decoration: none;
 width: 30%;
 }
 #logo-container{
-  font-size: 16px;
-  width:16%;
+  font-size: 14px;
+  width:18%;
 }
 div a{
   font-size:12px;
@@ -634,9 +656,6 @@ div a{
 .slider{
   width: 95%;
 }
-.top-description{
-  width: 79%;
-}
 .img-top{
   width:200px;
   height: 200px;;
@@ -652,7 +671,9 @@ div a{
   ;
 }
 }
-@media (max-width:600px){
+
+@media (max-width:630px){
+
   #hamburguer{
     display: inline-block;
     color:#888888;
@@ -684,5 +705,22 @@ div a{
 }
 #user-container{
   display: none;
+}
+.top-description{
+  font-size: 14px;
+  width: 50%;
+ }
+.top-description-details{
+ font-size: 12px;
+ width: 100%;
+}
+#products-column{
+  width: 100%;;
+}
+.slides-card{
+  max-width: 100px;
+}
+body{
+  min-width: 420px;
 }
 }
