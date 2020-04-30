@@ -179,6 +179,7 @@ color:#888888  !important;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }
 
 div a:hover{
@@ -383,9 +384,6 @@ color:rgba(100,100,100,0.7);
   align-items: center;
   font-size: 100px;
 }
-.slides > div:target {
-/*   transform: scale(0.8); */
-}
 .author-info {
   background: rgba(0, 0, 0, 0.75);
   color: white;
@@ -506,8 +504,8 @@ max-width: 350px;
   font-weight: bolder;
   height: 30px;
   border-radius: 5% 0 0 5%;
-  border-right: 2px solid rgba(56, 56, 56, 0.4);
   padding: 0 10%;
+  border-right: 1px solid #888888;
   background-color: rgba(211, 82, 102, 1);
 }
 .hot-button-cart{
@@ -626,7 +624,7 @@ text-decoration: none;
 font-size: 12px;;
 width: 100%;;
   }
-#cards-container{
+.cards-container{
   flex-direction: column;;
 }
 #logo-footer{
@@ -670,10 +668,16 @@ div a{
   width: 23%;
   ;
 }
+#hotest-header{
+  margin-left: 5%;;
+}
 }
 
 @media (max-width:630px){
 
+  #hotest-header{
+    margin-left: 5%;;
+  }
   #hamburguer{
     display: inline-block;
     color:#888888;
@@ -715,12 +719,18 @@ div a{
  width: 100%;
 }
 #products-column{
-  width: 100%;;
+  width: 100%;
 }
 .slides-card{
   max-width: 100px;
 }
 body{
   min-width: 420px;
+}
+#btn-search {
+  width: 15%;
+}
+#input-search {
+  width: 28%;
 }
 }

@@ -12,34 +12,33 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@MephistoDevelop" />
   <meta name="twitter:creator" content="@MephistoDevelop" />
-  <link rel="stylesheet" href="./assets/styles/styles.css">
+  <link rel="stylesheet" href="./assets/styles/styles.css" />
   <script src="https://kit.fontawesome.com/d08a51000b.js" crossorigin="anonymous"></script>
-  </link>
   <title>Moni Cosmetic Store</title>
 </head>
-<div id="navbar-container">
-  <div id="logo-container">Moni Cosmetics</div>
-  <div id="menu-container">
-    <a><i id="home-icon" class="fas fa-home icons"></i> Home</a>
-    <a><i class="far fa-list-alt icons"></i>Products</a>
-    <a><i class="fas fa-shopping-cart icons"></i> Shop Cart</a>
-    <input id="nav-button" type="button" value="See More">
-  </div>
-  <div id="user-container">
-    <i class="fas fa-envelope"></i>
-    <span id="username" class="icons">MephistoDevelop</span>
-    <img id="user-image" src="/assets/images/ines2.png" />
-  </div>
-  <div id="hamburguer"><i class="fas fa-bars"></i></div>
-</div>
 
 <body>
+  <div id="navbar-container">
+    <div id="logo-container">Moni Cosmetics</div>
+    <div id="menu-container">
+      <a><i id="home-icon" class="fas fa-home icons"></i> Home</a>
+      <a><i class="far fa-list-alt icons"></i>Products</a>
+      <a><i class="fas fa-shopping-cart icons"></i> Shop Cart</a>
+      <input id="nav-button" type="button" value="See More">
+    </div>
+    <div id="user-container">
+      <i class="fas fa-envelope"></i>
+      <span id="username" class="icons">MephistoDevelop</span>
+      <img id="user-image" alt="user" src="/assets/images/ines2.png" />
+    </div>
+    <div id="hamburguer"><i class="fas fa-bars"></i></div>
+  </div>
   <div id="main-container">
     <div id="search-container">
       <div id="search-header" class="header-container">MONI COSMETICS</div>
       <div id="subtitle">The best products to stay cute</div>
       <div id="search-form">
-        <select id="cbx-categories" type="select">
+        <select id="cbx-categories">
           <option>Brusshes</option>
           <option>Concealer</option>
           <option>Shadows</option>
@@ -156,17 +155,17 @@
     </div>
     <div id="colums-container">
       <div class="d-flex w-100">
-        <section id="products-container" class="d-flex w-100 col">
-          <div id="product-header" class="d-flex w-100">
+        <div id="products-container" class="d-flex w-100 col">
+          <div class="d-flex w-100 product-header">
             <i class="fas fa-paint-brush icons-products"></i>Concealers
           </div>
-          <div id="cards-container" class="d-flex">
+          <div class="d-flex cards-container">
             <div class="column-container d-flex w-50">
               <div class="card w-50">
                 <div>
                   <img class="img-card" src="./assets//images/concealer-palette2.jpg" alt="Make Up">
                 </div>
-                <div class="card-section">
+                <div class="card-div">
                   <div style="height: 125px;">
                     <div class="header-card">
                       <p>Concealer Palette Mac </p>
@@ -186,7 +185,7 @@
                   <img class="img-card" src="./assets//images/82166618_220792715580503_1138787458725445632_n.jpg"
                     alt="Make Up">
                 </div>
-                <div class="card-section">
+                <div class="card-div">
                   <div style="height: 125px;">
                     <div class="header-card">
                       <p>Roses Lotion Saniye </p>
@@ -208,7 +207,7 @@
                   <img class="img-card" src="./assets//images/93383799_1326577767731014_5505048798067425280_o.jpg"
                     alt="Make Up">
                 </div>
-                <div class="card-section">
+                <div class="card-div">
                   <div style="height: 125px;">
                     <div class="header-card">
                       <p>Roses Lotion Saniye </p>
@@ -228,7 +227,7 @@
                   <img class="img-card" src="./assets//images/92617305_271006877225753_4283745633082277888_n.jpg"
                     alt="Make Up">
                 </div>
-                <div class="card-section">
+                <div class="card-div">
                   <div style="height: 125px;">
                     <div class="header-card">
                       <p>Lipsticks Vaious Tones</p>
@@ -245,17 +244,17 @@
               </div>
             </div>
           </div>
-          <div id="product-header" class="d-flex w-100">
+          <div class="d-flex w-100 product-header">
             <img src="./assets/images/shadows.png" alt="Shadows" class="header-icon"> Skin
           </div>
-          <div id="cards-container" class="d-flex">
+          <div class="d-flex cards-container">
             <div class="column-container d-flex w-50">
               <div class="card w-50 col">
                 <div>
                   <img class="img-card" src="./assets//images/89540167_254992428827198_1300165344429604864_n.jpg"
                     alt="Make Up">
                 </div>
-                <div class="card-section">
+                <div class="card-div">
                   <div style="height: 125px;">
                     <div class="header-card">
                       <p>Goldzan 24K</p>
@@ -275,7 +274,7 @@
                   <img class="img-card" src="./assets//images/82397745_220792698913838_8595909217926250496_n.jpg"
                     alt="Make Up">
                 </div>
-                <div class="card-section">
+                <div class="card-div">
                   <div style="height: 125px;">
                     <div class="header-card">
                       <p>Huxia Beauty Lipstick </p>
@@ -297,7 +296,7 @@
                   <img class="img-card" src="./assets//images/84841758_2573895062828497_4662852719738880000_n.jpg"
                     alt="Make Up">
                 </div>
-                <div class="card-section">
+                <div class="card-div">
                   <div style="height: 125px;">
                     <div class="header-card">
                       <p>Shadow Palette 24 tones</p>
@@ -316,7 +315,7 @@
                 <div>
                   <img class="img-card" src="./assets//images/one.jpg" alt="Make Up">
                 </div>
-                <div class="card-section">
+                <div class="card-div">
                   <div style="height: 125px;">
                     <div class="header-card">
                       <p>Roses Lotion Saniye </p>
@@ -334,10 +333,10 @@
             </div>
           </div>
 
-          <div id="product-header" class="d-flex w-100">
+          <div class="d-flex w-100 product-header">
             <img src="./assets/images/creams.png" class="header-icon" alt="creams">Make Up
           </div>
-          <div id="cards-container" class="d-flex">
+          <div class="d-flex cards-container">
             <div class="column-container d-flex w-50">
 
               <div class="card w-50">
@@ -345,7 +344,7 @@
                   <img class="img-card" src="./assets//images/83913581_2573894989495171_7360562678114287616_n.jpg"
                     alt="Make Up">
                 </div>
-                <div class="card-section">
+                <div class="card-div">
                   <div style="height: 125px;">
                     <div class="header-card">
                       <p>Palette with various tones </p>
@@ -365,7 +364,7 @@
                   <img class="img-card" src="./assets//images/83854663_552439715362132_3047048862926635008_n.jpg"
                     alt="Make Up">
                 </div>
-                <div class="card-section">
+                <div class="card-div">
                   <div style="height: 125px;">
                     <div class="header-card">
                       <p>White Rice Colagen </p>
@@ -387,7 +386,7 @@
                   <img class="img-card" src="./assets//images/77152896_1179934272395365_991061994155016192_n.jpg"
                     alt="Make Up">
                 </div>
-                <div class="card-section">
+                <div class="card-div">
                   <div style="height: 125px;">
                     <div class="header-card">
                       <p>Roses Lotion Saniye </p>
@@ -407,7 +406,7 @@
                   <img class="img-card" src="./assets//images/80120095_216157766043998_5306093448921612288_n.jpg"
                     alt="Make Up">
                 </div>
-                <div class="card-section">
+                <div class="card-div">
                   <div style="height: 125px;">
                     <div class="header-card">
                       <p>Lotion Saniye </p>
@@ -425,26 +424,26 @@
               </div>
             </div>
           </div>
-        </section>
+        </div>
       </div>
     </div>
   </div>
-</body>
-<div class="footer">
-  <div id="footer-container" class=" d-flex">
-    <div id="logo-footer">MONI COSMETICS</div>
-    <div id="footer-links-container">
-      <div id="footer-links-header">CATEGORIES</div>
-      <ul>
-        <li><a href="#">Lipsticks</a></li>
-        <li><a href="#">Brushes</a></li>
-        <li><a href="">Skin</a></li>
-        <li><a href="">Eyes</a></li>
-        <li><a href="">Skin Care</a></li>
-      </ul>
+  <div class="footer">
+    <div id="footer-container" class=" d-flex">
+      <div id="logo-footer">MONI COSMETICS</div>
+      <div id="footer-links-container">
+        <div id="footer-links-header">CATEGORIES</div>
+        <ul>
+          <li><a href="#">Lipsticks</a></li>
+          <li><a href="#">Brushes</a></li>
+          <li><a href="">Skin</a></li>
+          <li><a href="">Eyes</a></li>
+          <li><a href="">Skin Care</a></li>
+        </ul>
+      </div>
     </div>
+    <div id="copyrigth-container">Copyrigth 2020 MephistoDevelop, All Righs Reserved.</div>
   </div>
-  <div id="copyrigth-container">Copyrigth 2020 MephistoDevelop, All Righs Reserved.</div>
-</div>
+</body>
 
 </html>
