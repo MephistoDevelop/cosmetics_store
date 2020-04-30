@@ -308,18 +308,19 @@ color:rgba(100,100,100,0.7);
 .price-card{
   color:rgba(211, 82, 102, 1);
   font-weight: bolder;
-  padding-top:5%;
+  padding:5% 0;
   width: 100%;;
 }
 .price{
   margin-top: 5%;
   font-size: 20px;
   position: relative;
-  left:68%;
+  left:50%;
 }
 .plus-card{
   font-size: 30px;
   color:rgba(100,100,100,0.6);
+  margin-left: 10%;
 }
 .plus-card:hover{
   color:rgba(211, 82, 102, 1);
