@@ -265,10 +265,10 @@ div a:hover{
   display: flex;
   flex-direction: column;
 }
-#product-header{
-  border-bottom: 1px solid rgba(56,56,56,0.7);
+.product-header{
   color:rgba(56,56,56,1);
-
+  margin-bottom: 1%;
+    border-bottom: 1px solid rgba(56,56,56,0.4);
 }
 .icons-products{
   margin:0 5px;
@@ -279,8 +279,9 @@ div a:hover{
   background-color: rgba(100,100,100,0.06);
 }
 .card{
-  border: 1px solid rgba(136, 136, 136, 0.17);
+  border: 1px solid rgba(56, 56, 56, 0.2);
   margin:1%;
+  padding: 2%;
   background-color: white;;
   width: 50% !important;;
 }
@@ -308,19 +309,18 @@ color:rgba(100,100,100,0.7);
 .price-card{
   color:rgba(211, 82, 102, 1);
   font-weight: bolder;
-  padding:5% 0;
   width: 100%;;
 }
 .price{
   margin-top: 5%;
   font-size: 20px;
   position: relative;
-  left:50%;
+  float: right;
 }
 .plus-card{
   font-size: 30px;
   color:rgba(100,100,100,0.6);
-  margin-left: 10%;
+
 }
 .plus-card:hover{
   color:rgba(211, 82, 102, 1);
