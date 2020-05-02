@@ -1,4 +1,4 @@
-# Online Shop Application
+# Cosmetics e-Shop Application
 
 ### HTML & CSS Course
 
