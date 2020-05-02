@@ -21,7 +21,7 @@ The project is build for the HTML & CSS Capstone Project is based on an cosmetic
 
 ## Live Demo
 
-[Live Demo Link](https://mephistodevelop.github.io/costetics_store/)
+[Live Demo Link](https://mephistodevelop.github.io/cosmetic_deploy)
 
 ## Getting Started
 
