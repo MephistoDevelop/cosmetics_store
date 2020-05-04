@@ -1,31 +1,31 @@
-# Online Shop Application
+# Cosmetics e-Shop Application
 
 ### HTML & CSS Course
 
-> Cosmetic Store  made with HMTL and CSS (Flexbox)
+> Cosmetic e-Store  made with HMTL and CSS (Flexbox)
 
-The project you are going to build for the HTML & CSS Capstone Project is based on an cosmetic store.
-
-![screenshot](./)
+The project is build for the HTML & CSS Capstone Project is based on an cosmetic store.
 
 ## Built With
 
  - HTML
  - CSS
  - Flexbox
+ - Font-awesome
  - Git-Flow
+- Reponsive Design
 
 # Screenshot
 
-![screenshot](./)
+![screenshot](./assets/images/cosmetics.gif)
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://mephistodevelop.github.io/cosmetic_deploy)
 
 ## Getting Started
 
-To start to using this project you will need to clone or download tis repository to your localhost and open on your server the index.html file.
+To start to using this project you will need to clone or download this repository to your localhost and open on your server the index.html file.
 
 ### Deployment
 
